@@ -863,6 +863,10 @@ main {
 	width: 360px;
 }
 
+.example__img{
+	max-height: 270px;	
+}
+
 .works-list__item {
 	width: 280px;
 }
