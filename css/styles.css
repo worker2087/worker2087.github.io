@@ -71,7 +71,7 @@ body {
 	margin: 0;
 }
 
-.elements__item--parenthesis--gradient {
+.elements__item--parenthesis-gradient {
 	top: 0px;
     left: -194px;
     transform: rotate(26deg);
@@ -82,7 +82,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.elements__item--div1--gradient {
+.elements__item--div1-gradient {
 	top: 6px;
     left: 367px;
     transform: rotate(-23deg);
@@ -93,7 +93,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.elements__item--diez--gradient {
+.elements__item--diez-gradient {
 	top: 166px;
     left: -100px;
     transform: rotate(-170deg);
@@ -104,7 +104,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.elements__item--div2--gradient {
+.elements__item--div2-gradient {
 	top: 342px;
     left: 529px;
 	transform: rotate(16deg);
@@ -115,7 +115,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.elements__item--solidus--gradient {
+.elements__item--solidus-gradient {
 	top: 466px;
     left: 100px;
     transform: rotate(-12deg);
@@ -624,22 +624,22 @@ body {
 	padding-top: 80px;	
 }
 
-.elements__item--parenthesis--gradient {
+.elements__item--parenthesis-gradient {
     top: 0px;
     left: 61px;
 }
 
-.elements__item--diez--gradient {
+.elements__item--diez-gradient {
     top: 443px;
     left: 13px;
 }
 
-.elements__item--div2--gradient {
+.elements__item--div2-gradient {
 	top: 297px;
     left: 386px;
 }
 
-.elements__item--solidus--gradient {
+.elements__item--solidus-gradient {
     top: -12px;
     left: 800px;
 }
@@ -740,32 +740,32 @@ main {
 	margin: 30px auto 0;
 } 
 
-.elements__item--parenthesis--gradient {
+.elements__item--parenthesis-gradient {
     top: 0;
     left: 0;
     font-size: 32px;
     font-weight: 600;
 }
 
-.elements__item--diez--gradient {
+.elements__item--diez-gradient {
     top: 71px;
     left: 37px;
     font-size: 30px;
     font-weight: 600;
 }
 
-.elements__item--div1--gradient {
+.elements__item--div1-gradient {
     left: 239px;
     transform: rotate(16deg);
     font-size: 22px;
     font-weight: 600;
 }
 
-.elements__item--div2--gradient {
+.elements__item--div2-gradient {
     display: none;
 }
 
-.elements__item--solidus--gradient {
+.elements__item--solidus-gradient {
 	top: 0;
     left: 148px;
     font-size: 30px;
