@@ -35,10 +35,10 @@ body {
 }
 
 .main-screen__title {
-  font-size: 70px;
-  font-weight: 800;
   margin-top: 0;
   margin-bottom: 26px;
+  font-size: 70px;
+  font-weight: 800;
 }
 
 .container {
@@ -52,9 +52,9 @@ body {
 
 .main-screen__container {
   position: relative;
+  z-index: 5;
   height: 573px;
   padding: 80px 100px 0;
-  z-index: 5;
 }
 
 .main-screen__elements {
@@ -77,55 +77,55 @@ body {
 .elements__item--parenthesis-gradient {
   top: 0px;
   left: -194px;
-  transform: rotate(26deg);
   font-size: 48px;
   font-weight: 700;
+  transform: rotate(26deg);
 }
 
 .elements__item--div1-gradient {
   top: 6px;
   left: 367px;
-  transform: rotate(-23deg);
   font-size: 32px;
   font-weight: 700;
+  transform: rotate(-23deg);
 }
 
 .elements__item--diez-gradient {
   top: 166px;
   left: -100px;
-  transform: rotate(-170deg);
   font-size: 49px;
   font-weight: 600;
+  transform: rotate(-170deg);
 }
 
 .elements__item--div2-gradient {
   top: 342px;
   left: 529px;
-  transform: rotate(16deg);
   font-size: 49px;
   font-weight: 700;
+  transform: rotate(16deg);
 }
 
 .elements__item--solidus-gradient {
   top: 466px;
   left: 100px;
-  transform: rotate(-12deg);
   font-size: 49px;
   font-weight: 800;
+  transform: rotate(-12deg);
 }
 
 .button-orange {
   display: block;
-  background: #ff4e2e;
-  border: none;
-  color: white;
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
-  line-height: 55px;
-  font-size: 13px;
   height: 55px;
   width: 224px;
+  color: white;
+  font-size: 13px;
+  line-height: 55px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  background: #ff4e2e;
   cursor: pointer;
 }
 
@@ -134,9 +134,9 @@ body {
 }
 
 .main-screen__button {
-  margin-top: 30px;
   position: relative;
   z-index: 1;
+  margin-top: 30px;
 }
 
 .main-screen__photo {
@@ -157,15 +157,15 @@ body {
 }
 
 .main-screen__subtitle {
-  color: grey;
   font-size: 18px;
+  color: grey;
 }
 
 .header__wrap {
   display: flex;
-  align-items: center;
   padding: 30px 20px 0;
   margin-bottom: 60px;
+  align-items: center;
 }
 
 .header__menu {
@@ -187,10 +187,10 @@ body {
 }
 
 .menu-list__link {
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
   font-size: 16px;
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .menu-list__link:hover {
@@ -203,10 +203,10 @@ body {
 }
 
 .footer-menu__item {
+  font-size: 16px;
+  color: grey;
   list-style-type: none;
   text-decoration: none;
-  color: grey;
-  font-size: 16px;
 }
 
 .footer-menu__item:hover {
@@ -220,29 +220,29 @@ body {
 }
 
 .header__phone {
-  list-style-type: none;
-  text-decoration: none;
   margin-right: 20px;
   font-size: 18px;
   font-weight: 600;
   color: black;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .header__button {
-  cursor: pointer;
+  margin: 0;
   height: 55px;
   width: 224px;
-  border-color: #f82370;
-  margin: 0;
   color: #f82370;
+  border-color: #f82370;
+  cursor: pointer;
   background: transparent;
 }
 
 .header-contacts__button--bottom {
-  background: none;
-  border-color: #f82370;
   margin: 0;
   color: #f82370;
+  background: none;
+  border-color: #f82370;
 }
 
 #small-tel-logo {
@@ -257,23 +257,23 @@ body {
 .works-list__item {
   display: block;
   padding: 0 15px;
-  color: grey;
   font-size: 18px;
+  color: grey;
   text-align: center;
 }
 
 .subtitle {
-  text-align: center;
   margin: 30px 0;
   font-size: 35px;
   font-weight: 800;
+  text-align: center;
 }
 
 .works__bar {
   display: flex;
   justify-content: space-between;
-  margin: 30px auto;
   flex-wrap: wrap;
+  margin: 30px auto;
   padding: 0;
 }
 
@@ -295,32 +295,32 @@ body {
 
 .works-list__item {
   width: 260px;
-  list-style: none;
-  padding-top: 90px;
   margin-bottom: 20px;
+  padding-top: 90px;
+  list-style: none;
   background-repeat: no-repeat;
   background-position: center 0;
 }
 
 .my-jobs__wrap {
-  margin: 0 auto 40px;
-  max-width: 1170px;
   position: relative;
+  max-width: 1170px;
+  margin: 0 auto 40px;
   padding: 20px;
 }
 
 .slider__subtitle {
-  text-align: center;
   margin: 0;
   font-size: 35px;
   font-weight: 800;
+  text-align: center;
 }
 
 .slider__wrap {
+  overflow: hidden;
   width: 1170px;
   height: 324px;
   margin: 10px auto 50px;
-  overflow: hidden;
 }
 
 .slider__list {
@@ -330,14 +330,14 @@ body {
 
 .slider__button {
   position: absolute;
-  border-radius: 50%;
   height: 61px;
   width: 61px;
+  padding: 0;
+  border-radius: 50%;
   border: none;
   outline: none;
   cursor: pointer;
   background-image: url(../img/icons/arrow.png);
-  padding: 0;
 }
 
 .slider__button--left {
@@ -359,8 +359,8 @@ body {
 }
 
 .example {
-  width: 360px;
   display: inline-block;
+  width: 360px;
 }
 
 .example__img {
@@ -372,19 +372,19 @@ body {
 .slider__paginator {
   display: none;
   width: 90px;
-  padding: 0;
   margin: 0 auto 40px;
+  padding: 0;
 }
 
 .control__item {
-  background-image: url(../img/icons/paginator-1.png);
-  background-repeat: no-repeat;
-  background-color: transparent;
-  cursor: pointer;
   height: 10px;
   width: 10px;
   border: none;
   outline: none;
+  background-image: url(../img/icons/paginator-1.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .control__item:not(:last-child) {
@@ -397,89 +397,89 @@ body {
 
 .work-solution-centre span {
   display: block;
-  text-align: center;
   margin-top: 20px;
   color: grey;
+  text-align: center;
 }
 
 .example__text {
   display: block;
-  text-align: center;
   margin-top: 20px;
-  color: grey;
   font-size: 18px;
+  color: grey;
+  text-align: center;
 }
 
 .price {
-  background: linear-gradient(to right top, #ff8f5a, #ff2f96) ;
   overflow: hidden;
+  background: linear-gradient(to right top, #ff8f5a, #ff2f96) ;
 }
 
 .price__wrap {
-  max-width: 780px;
-  padding: 88px 0;
   position: relative;
+  padding: 88px 0;
+  max-width: 780px;
 }
 
 .price__subtitle {
+  margin-bottom: 50px;
+  margin-top: 0;
   color: white;
   font-size: 35px;
   font-weight: 600;
-  margin-bottom: 50px;
-  margin-top: 0;
 }
 
 .price__text {
-  color: white;
-  font-size: 16px;
   margin: 0;
+  font-size: 16px;
+  color: white;
 }
 
 .price-container-elements__item {
   position: absolute;
-  color: white;
   z-index: 1;
   margin: 0;
+  color: white;
 }
 
 .price-container__parenthesis {
   top: 47px;
   left: -403px;
-  transform: rotate(26deg);
   font-size: 48px;
   font-weight: 600;
+  transform: rotate(26deg);
 }
 
 .price-container__div1 {
   top: 243px;
   right: -16px;
-  transform: rotate(26deg);
   font-size: 35px;
   font-weight: 400;
+  transform: rotate(26deg);
 }
 
 .price-container__diez {
   top: 222px;
   left: -293px;
-  transform: rotate(26deg);
   font-size: 30px;
   font-weight: 400;
+  transform: rotate(26deg);
 }
 
 .price-container__solidus {
   top: 78px;
   right: -193px;
-  transform: rotate(-9deg);
   font-size: 35px;
   font-weight: 400;
+  transform: rotate(-9deg);
 }
 
 .price-container__div2 {
   top: 192px;
   right: -385px;
-  transform: rotate(-9deg);
   font-size: 48px;
   font-weight: 400;
+  transform: rotate(-9deg);
 }
 
 .footer__wrap {
@@ -490,20 +490,20 @@ body {
 }
 
 .footer__button {
+  margin-bottom: 30px;
+  padding: 0;
+  width: 224px;
+  height: 55px;
+  color: #f82370;
   background: none;
   border-color: #f82370;
-  padding: 0;
-  margin-bottom: 30px;
-  color: #f82370;
   cursor: pointer;
-  height: 55px;
-  width: 224px;
 }
 
 .footer__menu {
   margin:0;
-  list-style:none;
   padding-left: 0;
+  list-style:none;
 }
 
 .footer__menu li:not(:last-child) {
@@ -511,12 +511,12 @@ body {
 }
 
 .footer__right-column {
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
   color: black;
   list-style-type: none;
   text-decoration: none;
-  font-size: 21px;
-  margin: 0;
-  padding: 0;
 }
 
 .footer__right-column li:not(:last-child) {
@@ -524,13 +524,13 @@ body {
 }
 
 .footer-contacts__item {
-  color: black;
-  list-style-type: none;
-  text-decoration: none;
   padding-left: 30px;
+  color: black;
   background-image: url(../img/icons/phone.png);
   background-repeat: no-repeat;
   background-position: 0 center;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .footer-contacts__item--mail {
@@ -543,19 +543,19 @@ body {
 }
 
 .social li {
-  list-style: none;
   display: inline-block;
   margin-right: 5px;
+  list-style: none;
 }
 
 .social__item {
-  background-image: url(../img/social.png);
-  background-repeat: no-repeat;
-  width: 45px;
-  height: 45px;
-  cursor: pointer;
   display: inline-block;
   margin: 0;
+  width: 45px;
+  height: 45px;
+  background-image: url(../img/sprite/social.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 
@@ -580,12 +580,12 @@ body {
 }
 
 .footer__company-info {
-  background-color: #412C84;
-  text-align: center;
+  margin: 0;
+  padding: 20px 0;
   color: white;
   font-weight: 700;
-  padding: 20px 0;
-  margin: 0;
+  text-align: center;
+  background-color: #412C84;
 }
 
 @media (min-width: 990px) and (max-width: 1369px) {
@@ -595,10 +595,10 @@ body {
 }
 
 .main-screen__title {
-  font-size: 47px;
-  font-weight: 800;
   margin-top: 0;
   margin-bottom: 26px;
+  font-size: 47px;
+  font-weight: 800;
 }
 
 .header__menu {
@@ -632,15 +632,15 @@ body {
 
 .header__humb {
   display: block;
-  cursor: pointer;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  margin-right: auto;
   background-image: url(../img/icons/hambgr.png);
   background-repeat: no-repeat;
   background-color: transparent;
   border: none;
-  height: 40px;
-  width: 40px;
-  padding: 0;
-  margin-right: auto;
+  cursor: pointer;
 }
 
 .menu-list {
@@ -648,9 +648,9 @@ body {
 }
 
 .works__bar {
-  margin: 0 auto 30px;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto 30px;
   max-width: 600px;
 }
 
@@ -714,12 +714,12 @@ main {
 }
 
 .main-screen__container {
-  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
   padding: 359px 20px 0;
+  height: auto;
   background-size: auto 300px;
   background-position: top 50px right;
-  margin: 0 auto;
-  overflow: hidden;
 }
 
 .main-screen__button {
@@ -742,9 +742,9 @@ main {
 
 .elements__item--div1-gradient {
   left: 239px;
-  transform: rotate(16deg);
   font-size: 22px;
   font-weight: 600;
+  transform: rotate(16deg);
 }
 
 .elements__item--div2-gradient {
@@ -760,15 +760,15 @@ main {
 
 .header__humb {
   display: block;
-  cursor: pointer;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  border: none;
   background-image: url(../img/icons/small-hambgr.png);
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover;
-  height: 20px;
-  width: 20px;
-  border: none;
-  padding: 0;
+  cursor: pointer;
 }
 
 .header-contacts {
@@ -788,12 +788,12 @@ main {
 }
 
 .header__button--icon {
-  background-image: url(../img/icons/mobile-icon.png);
+  padding: 0;
   height: 26px;
   width: 26px;
-  padding: 0;
   font-size: 0;
   border: transparent;
+  background-image: url(../img/icons/mobile-icon.png);
 }
 
 .main-screen__subtitle {
@@ -802,12 +802,12 @@ main {
 }
 
 .main-screen__title {
-  font-size: 25px;
-  font-weight: 800;
   margin-top: 0;
   margin-bottom: 26px;
-  text-align: center;
   padding-top: 0;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
 }
 
 .main-screen__photo {
@@ -868,8 +868,8 @@ main {
 }
 
 .slider__list {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .slider__item:nth-child(1) {
@@ -890,8 +890,8 @@ main {
 }
 
 .price__wrap {
-  max-width: 280px;
   padding: 40px 20px;
+  max-width: 280px;
 }
 
 .price__subtitle {
@@ -924,25 +924,25 @@ main {
 
 .footer__wrap {
   display: block;
-  height: auto;
-  padding: 0 20px;
   margin: 20px auto 0;
+  padding: 0 20px;
+  height: auto;
 }
 
 .header__button--bottom {
   display: block;
-  background: #ff4e2e;
-  border: none;
-  color: white;
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
   margin-top: 30px;
-  line-height: 55px;
-  font-size: 13px;
   height: 55px;
   width: 224px;
+  color: white;
+  line-height: 55px;
+  font-size: 13px;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
   cursor: pointer;
+  background: #ff4e2e;
+  border: none;
 }
 
 .footer__menu {
