@@ -681,6 +681,11 @@ main {
   display: none;
 }
 
+.main-screen {
+  margin: 0 auto;
+  max-width: 485px;
+}
+
 .main-screen__container {
   margin: 0 auto;
   padding: 359px 20px 0;
@@ -779,7 +784,7 @@ main {
 
 .main-screen__photo {
   top: 44px;
-  right: -123px;
+  right: -65px;
 }
 
 .photo {
@@ -789,6 +794,7 @@ main {
 }
 
 .main-screen__photo > img {
+  padding-left: 150px;
   height: 300px;
 }
 
