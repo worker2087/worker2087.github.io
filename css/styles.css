@@ -197,7 +197,7 @@ body {
   text-decoration: none;
 }
 
-.header__button {
+.transparent__button {
   margin: 0;
   height: 55px;
   width: 224px;
@@ -456,17 +456,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 80px 20px;
-}
-
-.footer__button {
-  margin-bottom: 30px;
-  padding: 0;
-  width: 224px;
-  height: 55px;
-  color: #f82370;
-  background: none;
-  border-color: #f82370;
-  cursor: pointer;
 }
 
 .footer__menu {
@@ -784,7 +773,7 @@ main {
 
 .main-screen__photo {
   top: 44px;
-  right: -65px;
+  right: -px;
 }
 
 .photo {
