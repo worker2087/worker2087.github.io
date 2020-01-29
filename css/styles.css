@@ -270,8 +270,7 @@ body {
   background-position: center 0;
 }
 
-.slider {
-  overflow: hidden;
+.swiper-container {
   position: relative;
   padding: 0 20px;
 }
@@ -293,7 +292,7 @@ body {
   transform: rotate(-180deg);
 }
 
-.slider-pagination {
+.swiper-pagination {
   display: none;
   position: static;
 }
@@ -641,7 +640,7 @@ body {
   max-width: 600px;
 }
 
-.slider {
+.swiper-container {
   max-width: 770px !important;
 }
 
@@ -649,7 +648,7 @@ body {
   width: 370px !important;
 }
 
-.slider-pagination {
+.swiper-pagination {
   display: block;
 }
 
@@ -843,7 +842,7 @@ main {
   padding: 20px;
 }
 
-.slider-pagination {
+.swiper-pagination {
   display: block;
 }
 
