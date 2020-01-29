@@ -1,80 +1,25 @@
-$(function(){
-var right = 0;
-var ButtonPad = 0;
+    var swiper = new Swiper('.slider', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.slider-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        1369: {
+          slidesPerView: 3,
+        },
+        989: {
+          slidesPerView: 2,
+        },
+        485: {
+          slidesPerView: 1,
+        }
+      }
+    });
 
-function SliderMovingLeft(){	
-	right = right - 400;
-		if (right < -800) {
-			right = 0;
-		}
-	$('.slider__list').css('margin-left', right + 'px');
-}
-
-$(document).ready(function() {
-  	$(window).on('resize', function() { 
-    	$('.slider__list').css('margin-left', 0 + 'px');
-})
-});
-
-function SliderMovingRight(){
-	if (right < 0) {
-		right = right + 400;
-	}
-	$('.slider__list').css('margin-left', right + 'px');
-}
-
-$('.slider__button--right').click(function(){
-	SliderMovingLeft(); 
-	console.log(right);
-});
-
-$('.slider__button--left').click(function(){
-	SliderMovingRight();
-	console.log(right);  
-});
-
-function PadMovingButton3(){
-	right = 0;
-	if(window.matchMedia('(max-width: 989px)').matches){
-		right = right - 730;
-		$('.slider__list').css('margin-left', right + 'px');
-	} else {
-		right = right - 1780;
-		$('.slider__list').css('margin-left', right + 'px');
-	}
-}
-
-$('.control__item:nth-child(3)').on('click', function(){
-	PadMovingButton3(); 
-	console.log(right);
-	right = 0;
-});
-
-function PadMovingButton2(){
-	right = 0;
-	if(window.matchMedia('(max-width: 989px)').matches){
-		right = right - 360;
-		$('.slider__list').css('margin-left', right + 'px');
-	} else {
-		right = right - 890;
-		$('.slider__list').css('margin-left', right + 'px');
-	}
-}
-
-$('.control__item:nth-child(2)').on('click', function(){
-	PadMovingButton2(); 
-	console.log(right);
-	right = 0;
-});
-
-function PadMovingButton1(){
-	right = 0;
-	$('.slider__list').css('margin-left', right + 'px');
-}
-
-$('.control__item:nth-child(1)').on('click', function(){
-	PadMovingButton1(); 
-	console.log(right);
-});
-
-});
