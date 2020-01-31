@@ -1,14 +1,15 @@
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
+    var swiper = new Swiper('.slider', {
       spaceBetween: 30,
+      slideClass: 'slider__item',
+      wrapperClass: 'slider__wrap',
       loop: true,
       pagination: {
-        el: '.swiper-pagination',
+        el: '.slider__pagination',
         clickable: true,
       },
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.slider__button--next',
+        prevEl: '.slider__button--prev',
       },
       breakpoints: {
         1369: {

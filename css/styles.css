@@ -298,31 +298,28 @@ body {
   background-position: center 0;
 }
 
-.swiper-container {
+.slider {
   position: relative;
+  overflow: hidden;
   padding: 0 20px;
 }
 
-.swiper-button-next:after, .swiper-button-prev:after {
-  display: none;
-}
-
-.swiper-button-prev {
-  top: 150px;
+.slider__button--prev {
+  top: 120px;
   left: 1px;
   box-shadow: 5px 5px 10px 0 black;
 }
 
-.swiper-button-next {
-  top: 150px;
+.slider__button--next {
+  top: 120px;
   right: 11px;
   box-shadow: -5px -5px 10px 0 black;
   transform: rotate(-180deg);
 }
 
-.swiper-pagination {
+.slider__pagination {
   display: none;
-  position: static;
+  text-align: center;
 }
 
 .my-jobs {
@@ -344,15 +341,12 @@ body {
 }
 
 .slider__wrap {
-  overflow: hidden;
-  width: 1170px;
-  height: 324px;
-  margin: 10px auto 50px;
+  display: flex;
 }
 
-.slider__list {
-  width: 2700px;
-  transition: all 1s ease 0s;
+.slider__item {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .slider__button {
@@ -381,18 +375,15 @@ body {
 
 }
 
-.slider__item {
-  margin-right: 40px;
-}
-
 .example {
   display: inline-block;
   width: 360px;
 }
 
-.example__img {
+.slider__img {
   width: 370px;
   height: 290px;
+  margin-bottom: 20px;
   object-fit: contain;
 }
 
@@ -422,19 +413,11 @@ body {
   background-image: url(../img/icons/paginator-2.png);
 }
 
-.work-solution-centre span {
-  display: block;
-  margin-top: 20px;
-  color: grey;
+.slider__title {
   text-align: center;
-}
-
-.example__text {
-  display: block;
   margin-top: 20px;
   font-size: 18px;
   color: grey;
-  text-align: center;
 }
 
 .price {
@@ -668,24 +651,16 @@ body {
   max-width: 600px;
 }
 
-.swiper-container {
+.slider {
   max-width: 770px !important;
-}
-
-.swiper-slide {
-  width: 370px !important;
-}
-
-.swiper-pagination {
-  display: block;
 }
 
 .slider__wrap {
   width: 800px;
 }
 
-.slider__item {
-  margin-right: 80px;
+.slider__pagination {
+  display: block;
 }
 
 .price-container__parenthesis {
@@ -870,7 +845,7 @@ main {
   padding: 20px;
 }
 
-.swiper-pagination {
+.slider__pagination {
   display: block;
 }
 
@@ -883,7 +858,7 @@ main {
   width: 360px;
 }
 
-.example__img {
+.slider__img {
   width: 280px;
   height: auto;
 }
@@ -907,23 +882,6 @@ main {
 .slider__list {
   margin: 0;
   padding: 0;
-}
-
-.slider__item:nth-child(1) {
-  display: none;
-}
-
-.slider__item:nth-child(3) {
-  display: none;
-}
-
-.slider__item:not(:last-child) {
-  margin-right: 0;
-  margin-bottom: 30px;
-}
-
-.example__text {
-  font-size: 18px;
 }
 
 .price__wrap {
