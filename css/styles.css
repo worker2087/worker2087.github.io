@@ -9,8 +9,8 @@ body {
   font-style: normal;
   font-weight: 400;
   src: local('Roboto'), local('Roboto-Regular'),
-  url('fonts/roboto-v20-cyrillic--latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-  url('fonts/roboto-v20-cyrillic--latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('fonts/roboto-v20-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/roboto-v20-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
 }
 /* roboto-italic - cyrillic--latin */
 @font-face {
@@ -18,8 +18,8 @@ body {
   font-style: italic;
   font-weight: 400;
   src: local('Roboto Italic'), local('Roboto-Italic'),
-  url('fonts/roboto-v20-cyrillic--latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
-  url('fonts/roboto-v20-cyrillic--latin-italic.woff') format('woff'), /* Modern Browsers */
+  url('fonts/roboto-v20-cyrillic_latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/roboto-v20-cyrillic_latin-italic.woff') format('woff'), /* Modern Browsers */
 }
 /* roboto-700 - cyrillic--latin */
 @font-face {
@@ -27,8 +27,8 @@ body {
   font-style: normal;
   font-weight: 700;
   src: local('Roboto Bold'), local('Roboto-Bold'),
-  url('fonts/roboto-v20-cyrillic--latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-  url('fonts/roboto-v20-cyrillic--latin-700.woff') format('woff'), /* Modern Browsers */
+  url('fonts/roboto-v20-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/roboto-v20-cyrillic_latin-700.woff') format('woff'), /* Modern Browsers */
 }
 
 .main-screen__title {
@@ -247,7 +247,7 @@ body {
 }
 
 .works__wrap {
-  padding: 20px;
+  padding: 0 20px;
   margin-bottom: 40px;
 }
 
@@ -260,7 +260,9 @@ body {
 }
 
 .subtitle {
-  margin: 30px 0;
+  /* margin-bottom:  30px; */
+  margin-top: 0;
+  padding-top: 30px;
   font-size: 35px;
   font-weight: 800;
   text-align: center;
@@ -301,20 +303,7 @@ body {
 .slider {
   position: relative;
   overflow: hidden;
-  padding: 0 20px;
-}
-
-.slider__button--prev {
-  top: 120px;
-  left: 1px;
-  box-shadow: 5px 5px 10px 0 black;
-}
-
-.slider__button--next {
-  top: 120px;
-  right: 11px;
-  box-shadow: -5px -5px 10px 0 black;
-  transform: rotate(-180deg);
+  padding: 0 29px;
 }
 
 .slider__pagination {
@@ -351,28 +340,30 @@ body {
 
 .slider__button {
   position: absolute;
-  height: 61px;
-  width: 61px;
+  height: 60px;
+  width: 60px;
   padding: 0;
   border-radius: 50%;
   border: none;
   outline: none;
   cursor: pointer;
+  background-repeat: no-repeat;
   background-image: url(../img/icons/arrow.png);
+  background-position: bottom 19px left 20px;
+  background-color: white;
 }
 
-.slider__button--left {
-  top: 150px;
-  left: -10px;
-  box-shadow: 5px 5px 10px 0 black;
+.slider__button--prev {
+  top: 117px;
+  left: 1px;
+  box-shadow: 7px 5px 10px 0 black;
 }
 
-.slider__button--right {
-  top: 150px;
-  right: -10px;
-  box-shadow: -5px -5px 10px 0 black;
+.slider__button--next {
+  top: 120px;
+  right: 7px;
+  box-shadow: 0px -6px 10px 0 black;
   transform: rotate(-180deg);
-
 }
 
 .example {
@@ -538,12 +529,16 @@ body {
 
 .social {
   padding: 0;
+  margin-bottom: 0;
 }
 
 .social li {
   display: inline-block;
-  margin-right: 5px;
   list-style: none;
+}
+
+.social li:not(:last-child) {
+  margin-right: 5px;
 }
 
 .social__item {
@@ -842,7 +837,11 @@ main {
 }
 
 .works__wrap {
-  padding: 20px;
+  padding: 0 20px;
+}
+
+.slider {
+  padding: 0px 23px;
 }
 
 .slider__pagination {
@@ -919,8 +918,8 @@ main {
 
 .footer__wrap {
   display: block;
-  margin: 20px auto 0;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 20px;
   height: auto;
 }
 
@@ -950,10 +949,6 @@ main {
 
 .footer__social {
   margin: 0 auto;
-}
-
-.social {
-  margin: 30px 0;
 }
 
 }
