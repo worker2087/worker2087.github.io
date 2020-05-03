@@ -1,177 +1,520 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <title>Дипломная работа</title>
-  <link rel="stylesheet" href="css/swiper.min.css">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Figma_lesson</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="libs/fontawesome/all.min.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
 </head>
 <body>
-  <header class="header">
-    <div class="header__wrap container" id="tel">
-      <button aria-label="открыть меню" class="header__humb"></button>
-      <nav class="header__menu menu">
-        <ul class="menu-list menu-list__row">
-          <li class="menu-list__item">
-            <a href="#" class="menu-list__link">Услуги</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="#" class="menu-list__link">Портфолио</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="#" class="menu-list__link">Профиль</a>
-          </li>
-        </ul>
-      </nav>
-      <a href="+74992741901"  class="header__phone">+7 (499) 274 19 01</a>
-      <button class="transparent__button header__button--icon">Заказать звонок</button>
-    </div>
-  </header>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__wrap" >
+				<div class="logo">
+					<a href="/" class="logo__img">
+						<img src="img/svg/logo_powerplate.svg" alt="">
+					</a>
+				</div>
+				<div class="header__contacts">
+					<div class="header__contacts-item">+7 (968) 600-99-98</div>
+					<a href="/" class="header__hamb">
+						<img src="img/header/hamb.png" alt=""> 
+					</a>
+					<div class="header__contacts-item header__contacts-item--none">info@powerplate.ru</div>
+					<div class="header__contacts-item header__contacts-item--none">Условия доставки</div>
+				</div>
+				<div class="header__call">
+					<a href="/" class="header__button">Обратный звонок</a>
+				</div>
+			</div> <!-- /Header__wrap -->
+		</div> <!-- /Container -->
+	</header>
+
+	<div class="nav">
+		<div class="container" id="container">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a href="/" class="nav__link nav__arrow">О компании</a>	
+				</li>
+				<li class="nav__item">
+					<a href="/" class="nav__link nav__arrow">Тренажеры</a>
+				</li>
+				<li class="nav__item">
+					<a href="/" class="nav__link nav__arrow">Тренеры</a>
+				</li>
+				<li class="nav__item">
+					<a href="/" class="nav__link">Технологии</a>
+				</li>
+				<li class="nav__item">
+					<a href="/" class="nav__link">Сервис и поддержка</a>
+				</li>
+				<li class="nav__item">
+					<a href="/" class="nav__link">Отзывы</a>
+				</li>
+				<li class="nav__item">
+					<a href="/" class="nav__link">Контакты</a>
+				</li>
+				<li class="nav__item">
+					<a href="/" class="nav__link">Франчайзинг</a>
+				</li>
+			</ul>
+		</div>  <!-- /Container -->
+	</div>
+
+	<section id="about" class="about">
+		<div class="container about__container">
+			<div class="about__wrapper">
+				<div class="about__graph">
+					<div class="">
+						<img class="about__elements about__ellipse1" src="img/about/Ellipse1.png" alt="">	
+						<img class="about__elements about__ellipse2" src="img/about/Ellipse2.png" alt="">		
+						<img class="about__elements about__ellipse3" src="img/about/Ellipse3.png" alt="">	
+						<img class="about__elements about__ellipse4" src="img/about/Ellipse4.png" alt="">
+						<img class="about__girl" src="img/about/girl.png" alt=""> 
+						<img class="about__elements about__pwr" src="img/about/pwr.png" alt=""> 
+						<a href="/" class="about__elements about__effect1">
+							<img src="img/about/effect.png" alt=""> 
+						</a>
+						<a href="/" class="about__elements about__effect2">
+							<img src="img/about/effect.png" alt=""> 
+						</a>
+						<a href="/" class="about__elements about__effect3">
+							<img src="img/about/effect.png" alt=""> 
+						</a>
+						<a href="/" class="about__elements about__effect4">
+							<img src="img/about/effect.png" alt=""> 
+						</a>
+					</div>
+				</div>
+
+				<div class="about__titleblock">
+					<h2 class="about__suptitle">официальный дистрибьютер в&nbsp;России</h2>
+					<h1 class="about__title">Линейка тренажеров Power Plate</h1>
+				</div>
+
+				<div class="about__leftcol">
+					<div class="about__stat">
+						<ul class="stat__list">
+							<li class="stat__item">7
+								<span><br>спортивных<br>тренажеров</span>
+							</li>
+							<li class="stat__item">
+								1000+
+								<span><br>тренировочных<br>комбинаций</span>
+							</li>
+							<li class="stat__item">
+								250+
+								<span><br>программ</span>
+							</li>
+						</ul>
+					</div>					
+				</div>
+
+				<div class="about__rightcol">
+					<div class="about__info">
+						<ul class="about__list">
+							<li class="about__item">сила и выносливость</li>
+							<li class="about__item">красивые формы</li>
+							<li class="about__item">проработка мелких мышц</li>
+						</ul>
+					</div>
+				</div>			
+
+			</div> <!-- /about__wrapper -->	
+			<div class="about__wrapbutton">
+				<a href="/" class="about__button">Смотреть каталог</a>
+			</div>	
+		</div> <!-- /Container -->
+	</section>
+
+	<section class=" section info-block">
+		<div class="container">
+			<div class="info-block__wrapper">
+				<div class="info-block__item info-block__bg1">
+					<h3 class="info-block__text">
+					Как работает Power&nbsp;Plate?</h3>
+					<img class="info-block__icon" src="img/info-block/1.svg" alt="">
+					Подробнее о технологии Равноускоренного тренинга
+				</div>	
+
+				<div class="info-block__item info-block__bg2">
+					<h3 class="info-block__text">
+					Звездные отзывы</h3>
+					<img class="info-block__icon" src="img/info-block/2.svg" alt="">
+					Почему знаменитости и спортсмены выбирают нас
+				</div>
+
+				<div class="info-block__item info-block__bg3">
+					<h3 class="info-block__text">
+					Как работает Power&nbsp;Plate?</h3>
+					<img class="info-block__icon" src="img/info-block/3.svg" alt="">
+					Приобретите б/у тренажер  в хорошем состоянии с выгодой
+				</div>
+
+				<div class="info-block__item info-block__bg4">
+					<h3 class="info-block__text">
+					Как работает Power&nbsp;Plate?</h3>
+					<img class="info-block__icon" src="img/info-block/4.svg" alt="">
+					Ваш готовый прибыльный<br>бизнес
+				</div>
+			</div>	<!-- /info-block__wrapper -->			
+		</div> <!-- /Container -->
+	</section>
+
+	<section id="training-apps" class="training-apps section ">
+		<div class="container slider1">
+			<h2 class="section__title">Наши топовые тренажеры</h2>
+			<h4 class="section__subtitle">Выберите Power Plate подходящий для&nbsp;ваших&nbsp;задач</h4>
+		<div class="training-apps__wrapper">
+
+				<div class="training-apps__item">
+						<img class="training-apps__img" src="img/training-apps/training-apps1.png" alt="">
+						<div class="training-apps__textwrap" >
+							<span class="training-apps__desc">Power Plate® My7™</span>
+							<br>— Сенсорный экран для выполнения операций
+							<br>— Видео рекомендации
+							<br>— Технология proMOTION™
+							<a href="" class="training-apps__button">Запросить цену</a>
+						</div>
+				</div> <!-- /training-apps__item -->	
+
+				<div class="training-apps__item">
+					<img class="training-apps__img" src="img/training-apps/training-apps2.png" alt="">
+					<div>
+						<span class="training-apps__desc">Power Plate® My7™</span>
+						<br>— Сенсорный экран для выполнения операций
+						<br>— Видео рекомендации
+						<br>— Технология proMOTION™
+						<a href="" class="training-apps__button">Запросить цену</a>
+					</div>
+				</div> <!-- /training-apps__item -->	
+
+				<div class="training-apps__item">
+					<img class="training-apps__img" src="img/training-apps/training-apps3.png" alt="">
+					<div>
+						<span class="training-apps__desc">Power Plate® My7™</span>
+						<br>— Сенсорный экран для выполнения операций
+						<br>— Видео рекомендации
+						<br>— Технология proMOTION™
+						<a href="" class="training-apps__button">Запросить цену</a>
+					</div>
+				</div> <!-- /training-apps__item -->	
+
+			</div> <!-- /training-apps__wrapper -->		
+			<button class="training-apps__prev"></button>	
+			<button class="training-apps__next"></button>
+		</div> <!-- /Container -->
+	</section>
+
+	<section class="video-cont section">
+		<div class="container">
+			<h2 class="section__title">Видеопрезентации Power Plate</h2>
+			<h4 class="section__subtitle">Возможности тренажеров в действии</h4>
+			<div class="grid">
+				
+					<!-- <div class="video-cont__item--first grid__item">
+							<a class="video-cont__link1" href="/">
+								<img src="img/video-cont/video1.png" alt="">
+							</a>
+							<span class="video-cont__name">Power Plate® My7™</span>		
+					</div>
+
+					<div class="video-cont__item--second grid__item">
+							<a class="video-cont__link2" href="/">
+								<img src="img/svg/play.svg" alt="">
+							</a>
+							<span class="video-cont__name">Power Plate® My7™</span>			
+					</div>
+				
+
+					<div class="video-cont__item--third grid__item">							
+								<a class="video-cont__link1" href="/">
+									<img src="img/svg/play.svg" alt="">
+								</a>
+								<span class="video-cont__name">Power Plate® My7™</span>		
+					</div>
+
+					<div class="video-cont__item--fourth grid__item">
+							<a class="video-cont__link2" href="/">
+								<img src="img/svg/play.svg" alt="">
+							</a>
+							<span class="video-cont__name">Power Plate® My7™</span>			
+					</div>
+				
+					<div class="video-cont__item--fiveth grid__item">		
+							<a class="video-cont__link1" href="/">
+								<img src="img/svg/play.svg" alt="">
+							</a>
+							<span class="video-cont__name">Power Plate® My7™</span>			
+					</div>
+
+					<div class="video-cont__item--sixth grid__item">
+							<a class="video-cont__link2" href="/">
+								<img src="img/svg/play.svg" alt="">
+							</a>
+							<span class="video-cont__name">Power Plate® My7™</span>			
+					</div> -->
+
+					<div class="grid__item ">
+							<img src="img/video-cont/video1.png" alt="">							
+					</div>
+					<div class="grid__item ">
+							<img src="img/video-cont/video3.png" alt="">							
+					</div>
+					<div class="grid__item ">
+							<img src="img/video-cont/video5.png" alt="">							
+					</div>
+					<div class="grid__item grid__item--height">
+							<img src="img/video-cont/video6.png" alt="">							
+					</div>
+					<div class="grid__item ">
+							<img src="img/video-cont/video2.png" alt="">							
+					</div>
+					<div class="grid__item ">
+							<img src="img/video-cont/video4.png" alt="">							
+					</div>
+				
+
+			</div> <!-- /video-cont__wrapper -->
+					
+		</div> <!-- /Container -->
+	</section>
+
+	<section class="comments section">
+		<div class="container slider2">
+			<h2 class="section__title">Отзывы звезд</h2>
+			<h4 class="section__subtitle">Power Plate — выбор celebrity и спортсменов</h4>
+			<div class="comments__wrapper">
+
+				<div class="comments__item">
+					<div class="comments__img">
+						<img class="comments__stars" src="img/comments/comments1.png" alt="">
+					</div>					
+					<div class="comments__cont">
+						<div class="comments__arrow comments__arrow--left"></div>
+						<h3 class="comments__title">Валерия, певица</h3>
+						<p class="comments__text">Очень удобно, что такое огромное количество упражнений можно выполнять на одном-единственном тренажере. И еще удобнее то, что эффективная тренировка занимает всего 20 минут.</p>
+					</div>
+				</div>		<!-- /comments__item -->
+
+				<div class="comments__item">
+					<div class="comments__cont comments__cont--right">
+						<div class="comments__arrow comments__arrow--right"></div>
+						<h3 class="comments__title">Стинг, музыкант</h3>
+						<p class="comments__text">Очень удобно, что такое огромное количество упражнений можно выполнять на одном-единственном тренажере. И еще удобнее то, что эффективная тренировка занимает всего 20 минут.</p>
+					</div>
+					<div class="comments__img">
+						<img src="img/comments/comments2.png" alt="">
+					</div>
+				</div>		<!-- /comments__item -->
+
+				<div class="comments__item">
+					<div class="comments__img">
+						<img src="img/comments/comments3.png" alt="">
+					</div>
+					<div class="comments__cont">
+						<div class="comments__arrow comments__arrow--left"></div>
+						<h3 class="comments__title">Ксения Бородина, телеведущая</h3>
+						<p class="comments__text">Очень удобно, что такое огромное количество упражнений можно выполнять на одном-единственном тренажере. И еще удобнее то, что эффективная тренировка занимает всего 20 минут.</p>
+					</div>
+				</div>		<!-- /comments__item -->
+			</div>	 <!-- /comments__wrapper -->	
+			<button class="comments__prev"></button>
+			<button class="comments__next"></button>
+			<div class="comments__button">
+					<a href="/" class="comments__link">Обратный звонок</a>
+				</div>	
+		</div> <!-- /Container -->
+	</section>	
+
+	<section id="studios" class="studios section">
+		<div class="container">
+			<h2 class="section__title">Студии Power Plate</h2>
+			<h4 class="section__subtitle">У нас более 100 студий в 40 городах России и СНГ. Выберите ближайшую к вам и приходите на занятия с сертифицированными инструкторами.</h4>
+			<div class="studios__wrapper">
+				<img class="studios__img" src="img/studios/map.png" alt="">
+				<img class="studios__img" src="img/studios/photo-studio.png" alt="">
+			</div>	 <!-- /Studios__wrapper -->		
+		</div> <!-- /Container -->
+	</section>	
+
+	<section id="treners" class="license section">
+		<div class="container container__license slider3">
+			<h2 class="section__title">Тренерская сертификация</h2>
+			<h4 class="section__subtitle">Вы можете пройти сертификацию в наших центрах и присоединиться к команде тренеров. Более 70 человек уже прошли сертификацию<br>и успешно ведут занятия в разных городах России и СНГ</h4>
+			<div class="license__wrapper">
+
+				<div class="license__item license__trener1">
+					<div class="license__text">Александр Александров
+						<span>Стаж 10 лет</span>
+					</div>
+				</div> <!-- /license__item -->	
+
+				<div class="license__item license__trener2">
+					<div class="license__text">Марина Мельникова
+						<span>Стаж 8 лет</span>
+					</div>
+				</div> <!-- /license__item -->
+
+				<div class="license__item license__trener3">
+					<div class="license__text">Камила Габайдулина
+						<span>Стаж 5 лет</span>
+					</div>
+				</div> <!-- /license__item -->
+
+				<div class="license__item license__trener4">
+					<div class="license__text">Екатерина Квасникова
+						<span>Стаж 12 лет</span>
+					</div>
+				</div> <!-- /license__item -->
+
+				<div class="license__item license__trener5">
+					<div class="license__text">Андрей<br>Ломоновов
+						<span>Стаж 10 лет</span>
+					</div>
+				</div> <!-- /license__item -->	
+			</div>	 <!-- /license__wrapper -->	
+
+			<button class="license__prev"></button>	
+			<button class="license__next"></button>
+<!-- 
+			<a href="/" class="license__arrow license__arrow--left">
+				<img  src="img/license/arrowLeft.png" alt="">
+			</a>
+			<a class="license__arrow license__arrow--right" href="/">
+				<img src="img/license/arrowRight.png" alt="">
+			</a>	 -->	
+
+			<div class="license__button">
+					<a href="/" class="license__link">Сертификация</a>
+			</div>	
+
+		</div> <!-- /Container -->
+	</section>	
+
+	<section class="franchise section">
+		<div class="container franchise__container">
+			<h2 class="section__title">Открыть франшизу</h2>
+			<h4 class="section__subtitle">Начните свой прибыльный бизнес с минимальными вложениями, присоединяйтесь к нашей команде</h4>
+			<div class="franchise__wrapper">
+				<div class="franchise__girl">
+					<img class="franchise__img" src="img/franchise/girl.png">
+					<img class="franchise__cicle1" src="img/franchise/franchise1.png">
+					<img class="franchise__cicle2" src="img/franchise/franchise2.png">
+					<img class="franchise__cicle3" src="img/franchise/franchise3.png">
+				</div>
+
+				<div class="franchise__bg">
+					<div class="franchise__form">
+						<h3 >Получить финансовый план по&nbsp;открытию студии Power Plate</h3>
+						<form action="" class="form" method="post">
+							<span class="form__title">Имя и Фамилия</span>
+							<input type="text" class="form__subscribe" name="name" placeholder="Например, Александр Петров">
+							<span class="form__title">Номер телефона</span>
+							<input type="text" class="form__subscribe" name="mobile" placeholder="+7 (999) 999-99-99">
+							<span class="form__title">E-mail</span>
+							<input type="email" class="form__subscribe" name="email" placeholder="99999@gmail.com">
+							<button class="form__button" type="sumbit">Получить</button>
+						</form>
+					</div>					
+				</div> <!-- /franchise__bg -->	
 
 
-  <main>
-    <section class="main-screen">
-      <div class="main-screen__container container">
-        <div class="main-screen__photo photo">
-          <img src="img/man.png" alt="изображение Дмитрия Алексеева">
-        </div>
-        <div class="main-screen__elements elements" aria-hidden="true">
-          <span class="elements__item elements__item--parenthesis-gradient">{ }</span>
-          <span class="elements__item elements__item--div1-gradient">&lt;div&gt;</span>
-          <span class="elements__item elements__item--diez-gradient">#</span>
-          <span class="elements__item elements__item--div2-gradient">&lt;div&gt;</span>
-          <span class="elements__item elements__item--solidus-gradient">&lt;/&gt;</span>
-        </div>
-        <h1 class="main-screen__title">Дмитрий Алексеев</h1>
-        <span class="main-screen__subtitle">Frontend-разработчик и веб-верстальщик</span>
-        <a href="#top" class="button-orange main-screen__button">Узнать больше</a>
-      </div>
-    </section>
+
+			</div>	 <!-- /franchise__wrapper -->	
+		</div> <!-- /Container -->
+	</section>	
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+
+				<div class="footer__col1">
+
+					<div class="logo footer__logo">
+						<a href="" class="logo__img">
+							<img src="img/svg/logo_powerplate.svg" alt="">
+						</a>
+					</div>
+
+					<div class="social">
+						<ul class="social__list">
+							<li class="social__item">
+								<a class="fab fa-vk"href="https://www.vk.com" target="_blank"></a>
+							</li>
+							<li class="social__item">
+								<a class="fab fa-youtube-square"href="https://www.youtube.com" target="_blank"></a>
+							</li>
+							<li class="social__item">
+								<a class="fab fa-facebook-f"href="https://www.facebook.com" target="_blank"></a>
+							</li>
+							<li class="social__item">
+								<a class="fab fa-instagram-square"href="https://www.instagram.com" target="_blank"></a>
+							</li>
+						</ul>
+					</div>
+				</div> <!-- /footer__col1 -->
+
+				<div class="footer__col footer__col2">
+					<div class="footer__cont footer__about">	
+						<a href="#about" class="footer__link--bold">О компании</a>
+						<a href="">О  Power Plate</a>
+						<a href="">Новости</a>
+						<a href="">Награды</a>
+					</div>
+					<div class="footer__cont footer__training-apps">
+						<a href="#training-apps" class="footer__link--bold">Тренажеры</a>
+						<a href="">Каталог тренажеров</a>
+						<a href="">Товары со скидкой</a>
+					</div>
+				</div>
+
+				<div class="footer__col3 footer__col">
+					<div class="footer__cont footer__treners">	
+						<a href="#treners" class="footer__link--bold">Тренеры</a>
+						<a href="">Наша команда</a>
+						<a href="">Сертификация</a>
+					</div>
+					<div class="footer__studios footer__cont">
+						<a href="#studios" class="footer__link--bold footer__link--small">Сервис и поддержка</a>
+						<a href="">Технологии</a>
+						<a href="">Отзывы</a>
+						<a href="">Контакты</a>
+						<a href="">Франчайзинг</a>	
+					</div>				
+				</div>
+
+				<div class="footer__col4 footer__col footer__cont">
+					<div class="footer__contacts">
+						<a class="footer__link--bold" href="tel:+79672872037">+7(968) 600-99-98</a>
+						<i class="fas fa-phone-alt"></i>
+					</div>
+
+					<div class="footer__contacts">
+						<a class="footer__link--bold" href="info@powerplate.ru">info@powerplate.ru</a>
+						<i class="fas fa-envelope"></i>
+					</div>
+
+					<div class="footer__contacts">
+						<a class="footer__link--bold">Условия доставки</a>
+						<i class="fas fa-map-marker-alt"></i>
+					</div>	
+					© 2001-2020 Все права защищены				
+				</div>
 
 
-    <section class="works container">
-      <h2 id="top" class="subtitle">Что я делаю</h2>
-      <div class="works__wrap">
-        <ul class="works__bar works-list">
-          <li class="works-list__item works-list__item--first">
-            Верстка лендинг-страниц и&nbsp;сайтов любой сложности
-          </li>
 
-          <li class="works-list__item works-list__item--second">
-            Адаптивная&nbsp;верстка&nbsp;под&nbsp;все браузеры и устройства
-          </li>
 
-          <li class="works-list__item works-list__item--theard">
-            Frontend-верстка&nbsp;и программирование
-          </li>
-
-          <li class="works-list__item works-list__item--fourth">
-            Исправление и доработка существующей верстки
-          </li>
-        </ul>
-        <a href="#tel" class="button-orange button-orange--middle">Узнать стоимость</a>
-      </div>
-    </section>
-
-    <section class="my-jobs">
-      <h2 class="subtitle">Примеры моих работ</h2>
-      <div class="slider container">
-    <!-- Additional required wrapper -->
-        <div class="slider__wrap">
-          <div class="slider__item">
-            <img class="slider__img" src="img/mothershop.jpg" alt="Магазин для мам">
-            <span class="slider__title">Сайт психолога Веры Антоновой</span>
-          </div>
-          <div class="slider__item">
-            <img class="slider__img" src="img/babyshop.jpg" alt="Магазин для детей">
-            <span class="slider__title">Сайт психолога Веры Антоновой</span>
-          </div>
-          <div class="slider__item">
-            <img class="slider__img" src="img/fishing.jpg" alt="Магазин для рыбалки">
-            <span class="slider__title">Сайт психолога Веры Антоновой</span>
-          </div>
-          <div class="slider__item">
-            <img class="slider__img" src="img/mothershop.jpg" alt="Магазин для мам">
-            <span class="slider__title">Сайт психолога Веры Антоновой</span>
-          </div>
-          <div class="slider__item">
-            <img class="slider__img" src="img/babyshop.jpg" alt="Магазин для детей">
-            <span class="slider__title">Сайт психолога Веры Антоновой</span>
-          </div>
-          <div class="slider__item">
-            <img class="slider__img" src="img/fishing.jpg" alt="Магазин для рыбалки">
-            <span class="slider__title">Сайт психолога Веры Антоновой</span>
-          </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="slider__pagination"></div>
-        <!-- If we need navigation buttons -->
-        <button class="slider__button slider__button--prev" aria-label="предыдущий слайд"></button>
-        <button class="slider__button slider__button--next" aria-label="следующий слайд"></button>
-      </div>
-    </section>
-
-    <section class="price">
-      <div class="price__wrap container">
-        <div class="main-screen__elements" aria-hidden="true">
-          <p class="price-container__parenthesis price-container-elements__item">{ }</p>
-          <p class="price-container__div1 price-container-elements__item">&lt;div&gt;</p>
-          <p class="price-container__diez price-container-elements__item">#</p>
-          <p class="price-container__div2 price-container-elements__item">{ }</p>
-          <p class="price-container__solidus price-container-elements__item">&lt;/&gt;</p>
-        </div>
-        <h2 class="price__subtitle">Адаптивная верстка под все устройства и&nbsp;браузеры от 1000 рублей всего за&nbsp;4&nbsp;часа.*</h2>
-        <p class="price__text">* Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в&nbsp;зависимости&nbsp;от&nbsp;сложности задач</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer__wrap container">
-      <ul class="footer__menu footer-menu">
-        <li>
-          <a href="#" class="footer-menu__item">Услуги</a>
-        </li>
-        <li>
-          <a href="#" class="footer-menu__item">Портфолио</a>
-        </li>
-        <li>
-          <a href="#" class="footer-menu__item">Профиль</a>
-        </li>
-      </ul>
-
-      <ul class="footer__right-column footer-contacts">
-        <li>
-          <a href="tel:+74992741901" class="footer-contacts__item">+7 (499) 274 19 01</a>
-        </li>
-        <li>
-          <a href="mailto:dmitriy@alekseev.ru" class="footer-contacts__item footer-contacts__item--mail">dmitriy@alekseev.ru</a>
-        </li>
-      </ul>
-
-      <div class="footer__social">
-        <button class="transparent__button">Заказать звонок</button>
-        <ul class="social">
-          <li>
-            <a class="social__item social__item--vk" href="http://www.vk.com" aria-label="Поделиться во Вконтакте"></a>
-          </li>
-          <li>
-            <a class="social__item social__item--facebook" href="http://www.facebook.com" aria-label="Поделиться в Фейсбуке"></a>
-          </li>
-          <li>
-            <a class="social__item social__item--twitter" href="http://www.twitter.com" aria-label="Поделиться в Твиттер"></a>
-          </li>
-          <li>
-            <a class="social__item social__item--instagram" href="http://www.instagram.com" aria-label="Поделиться в Инстаграм"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <p class="footer__company-info">© Дмитрий Алексеев, 2018-2019</p>
-  </footer>
-<script src="js/swiper.min.js"></script>
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/script.js"></script>
+			</div> <!-- /footer__wrapper -->
+		</div> <!-- /Container -->
+	</footer>
+	<script src="js/swiper.min.js"></script>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="js/app.js"></script>	
+	<script src="js/script.js"></script>	
 </body>
 </html>
